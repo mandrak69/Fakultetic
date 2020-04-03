@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="Profan">
+		<class>eng.dragan.markovic.fon.entity.City</class>
+		<class>eng.dragan.markovic.fon.entity.Professor</class>
+		<class>eng.dragan.markovic.fon.entity.Role</class>
+		<class>eng.dragan.markovic.fon.entity.Student</class>
+		<class>eng.dragan.markovic.fon.entity.StudentExam</class>
+		<class>eng.dragan.markovic.fon.entity.Subject</class>
+		<class>eng.dragan.markovic.fon.entity.SubjectProfessor</class>
+		<class>eng.dragan.markovic.fon.entity.Title</class>
+		<class>eng.dragan.markovic.fon.entity.User</class>
+	</persistence-unit>
+</persistence>
